@@ -1,0 +1,81 @@
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+  position: relative;
+}
+
+.footer {
+	position: fixed;
+	text-align: center;
+	bottom: 0px;
+	width: 100%;
+	height: 60px;
+	background-color: #1abc9c;
+}
+.postImage{
+  width:12%;
+margin-left: 44.5%;
+  margin-right:2%;
+  margin-bottom:1%;
+  border-radius: 50%;
+  margin-right:5%;
+}
+.textBlog{
+  margin-top: 2.7%;
+}
+.blogPost{
+  padding-top:4%;
+  padding-right:3%;
+  text-align: center;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.footerPost {
+	position: relative;
+	text-align: center;
+	bottom: 0px;
+	width: 100%;
+	height: 60px;
+	background-color: #1abc9c;
+}
+.footerPost p {
+	margin-top: 25px;
+  padding-top:1%;
+	font-size: 15px;
+  color: #fff;
+}
+.footer p {
+	margin-top: 25px;
+	font-size: 12px;
+  color: #fff;
+}
+
+.composeForm{
+  margin-top: 2%;
+}
+.form-group{
+  margin-top: 2%;
+}
+.publishBtn{
+  margin-top: 2%;
+}
+.postContent{
+  padding-bottom: 5%;
+}

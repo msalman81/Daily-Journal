@@ -1,0 +1,29 @@
+<%- include("partials/header"); %>
+
+<h1>
+  <%=pageHeading%>
+</h1>
+<p>
+  <%=mainContent%>
+</p>
+<% for(var x=0;x<postContent.length;x++){ %>
+<% var limContent=postContent[x].blogContent.slice(0,100); %>
+<div class="blogPost">
+
+
+  <img src="http://localhost:3000/blog/<%=postContent[x]._id%>" class="img-responsive postImage">
+  <div class="textBlog">
+
+
+    <h1>
+      <%=postContent[x].blogTitle%>
+    </h1>
+
+
+    <p>
+      <%=limContent+" ..."%><a href="/posts/(<%=postContent[x].blogTitle%>)">Read More</a></p>
+  </div>
+</div>
+<hr>
+<%}%>
+<%- include("partials/footer"); %>

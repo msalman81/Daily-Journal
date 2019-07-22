@@ -1,0 +1,21 @@
+<%- include("partials/header"); %>
+<h1 style="font-weight:700;">Compose</h1>
+<form class="composeForm" action="/compose" method="POST" enctype="multipart/form-data" >
+  <div class="form-group">
+      <label for="exampleFormControlFile1">Select a display picture</label>
+      <input  type="file" accept="image/x-png,image/gif,image/jpeg" name="avatar" class="form-control-file" id="exampleFormControlFile1" required>
+    </div>
+  <div class="form-group">
+    <label for="Title">Title</label>
+    <input type="text" class="form-control" id="exampleInputTitle1" aria-describedby="TitleHelp" name="title" placeholder="Enter Title" required >
+  </div>
+  <div class="form-group">
+   <label for="exampleFormControlTextarea1">Post</label>
+   <textarea class="form-control postContent" id="exampleFormControlTextarea1" name="post" rows="3" placeholder="Enter Post" required></textarea>
+ </div>
+
+  <button type="submit" class="btn btn-primary publishBtn">Publish</button>
+</form>
+
+
+<%- include("partials/footer"); %>
